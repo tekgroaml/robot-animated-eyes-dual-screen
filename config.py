@@ -1,0 +1,15 @@
+"""User-adjustable settings. One HDMI canvas contains two square eye regions."""
+SCREEN_SIZE = 480
+FPS = 60
+BACKGROUND = (3, 8, 16)
+SCLERA_COLOR = (200, 242, 246)
+IRIS_COLOR = (0, 210, 235)
+PUPIL_COLOR = (2, 14, 28)
+EYE_WIDTH = 0.76
+EYE_HEIGHT = 0.50
+IRIS_RADIUS = 0.18
+PUPIL_DILATION = 0.48
+TRANSITION_SPEED = 9.0
+AUTO_BLINK_SECONDS = (2.8, 6.5)
+SACCADE_SECONDS = (0.5, 1.6)
+MOUSE_TRACKING = False
